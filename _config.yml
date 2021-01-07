@@ -1,3 +1,16 @@
 theme: jekyll-theme-minimal
 title: Welcome to my personal page!
 description: This is just a trial :P
+
+defaults:
+  -
+    scope:
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Franco"
