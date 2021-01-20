@@ -1,9 +1,3 @@
----
----
-
-@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
-@import "minima/initialize";
-
 //------------------------------------------------------------------------------
 //--- FRAMED TEXT BOXES --------------------------------------------------------
 //------------------------------------------------------------------------------
@@ -22,7 +16,7 @@
 // The icons are supposed to be of width equal to 30px
 .okbox {
   border: solid $ok-box-color;
-  background: transparentize($ok-box-color,0.95) url('{{ site.baseurl }}/assets/img/ok-icon.png');
+  background: transparentize($ok-box-color,0.95) assets_url('{{ site.baseurl }}/assets/img/ok-icon.png');
 }
 .warnbox {
   border: solid $warn-box-color;
