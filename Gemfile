@@ -13,7 +13,7 @@ source "https://rubygems.org"
 # NOTE: I want the v3 of minima, to use their "skins" - in particular, the dark one!
 # As pointed out in https://blog.slowb.ro/dark-theme-for-minima-jekyll/
 # the current solution is to pull the master from github!
-gem "minima", git: "https://github.com/jekyll/minima"
+gem "minima", github: "jekyll/minima"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", group: :jekyll_plugins
