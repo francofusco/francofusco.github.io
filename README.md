@@ -1,5 +1,9 @@
-Sorry, this README is being used just as a personal cheat-sheet :P
-Perhaps I'll make it a "real README" in the future...
+The website is deployed at [francofusco.github.io](https://francofusco.github.io/).
 
-- `bundle exec jekyll serve`
-- `bundle exec jekyll serve --draft`
+To host it locally, run the following:
+
+```
+bundle exec jekyll serve --watch --livereload --draft
+```
+
+Of course, options can be omitted :wink:
