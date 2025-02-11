@@ -18,10 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Franco's personal page
-description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal page, which is still under construction. I have to decide
-  how I will be using this nice tool ;)
+title: Franco Fusco
+description: >- # this means to ignore newlines until "baseurl:". I could add some meaningful description, but I won't.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # NOTE: the following is for minima v2; cfr https://github.com/jekyll/minima#author-metadata
@@ -49,9 +47,17 @@ plugins:
 remote_theme: jekyll/minima
 
 minima:
-  skin: dark
+  # skin: dark
+  skin: classic
   social_links:
-    github: francofusco
+    # github: francofusco
+    # instagram: francscapes
+    - title: GitHub
+      icon: github
+      url: "https://github.com/francofusco"
+    - title: Instagram
+      icon: instagram
+      url: "https://instagram.com/francscapes"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

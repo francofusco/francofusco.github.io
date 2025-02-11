@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simple animations in Blender"
-date:   YYYY-MM-DD HH:MM:SS +0100
+date:   1993-08-24 08:00:00 +0100
 categories: python
 ---
 
